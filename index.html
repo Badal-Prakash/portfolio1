@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">PROJECT</a></li>
+            <li><a href="#">CONTACT ME</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hello,I am <span class="blue">Badal</span> .
+          <div>i am a passionate </div>
+          <span id="element"></span>
+        </div>
+        <div class="rightsection">
+          <img src="bff.png" alt="">
+        </div>
+      </section>
+      <hr>
+      <!-- <section class="secondsection"> -->
+        <section class="proje1">
+          <div>
+              <h1 >PROJECTS</h1>
+          </div>
+         </section>
+      <section class="projects">
+        
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <video width="300px" height="300px" autoplay muted controls loop>
+                <source src="lfr.mp4" type="video/mp4" />
+              </video>
+              <h1>LINE FOLLOWING</h1>
+              <span id="sp1">ROBOT</span>
+            </div>
+            <div class="flip-card-back">
+              <h1>LINE FOLLOWING ROBOT</h1>
+              <p id="p1">
+                The line follower robot is a mobile machine that can detect and
+                follow the line drawn on the floor. the path is predefined and can
+                be either visible like a black line on a white surface
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img id="bt" src="bt.gif" alt="Avatar" />
+              <p id="bt2">BLUETOOTH CONTROLLED</p>
+              <span id="sp1">ROBOT</span>
+            </div>
+            <div class="flip-card-back">
+              <h1>BLUETOOTH CONTROLLED ROBOT</h1>
+              
+              <p id="p1">Bluetooth controlled Robot is controlled by using Android mobile phone only needs to touch button in android phone to control the Robot in forward, backward, left and right directions</p>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <hr>
+      <section class="thirdsection">
+        <div class="left1">
+          SKILLS
+        </div>
+        <div class="right1">
+          <ul>
+            <li>WEB DEVELOPEMENT</li>
+            <li>C++ AND DSA</li>
+            <li>PYTHON</li>
+            <li> PHOTOSHOP</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed('#element', {
+        strings: ['Web Developer', 'Graphic Designer'],
+        typeSpeed: 50,
+      });
+    </script>
+    
+  </body>
+</html>
